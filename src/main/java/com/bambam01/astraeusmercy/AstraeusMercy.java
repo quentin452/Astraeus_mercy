@@ -41,7 +41,7 @@ public class AstraeusMercy
     public static final String MODID = "AstraeusMercy";
     public static final String VERSION = "1.0";
     public static Config config;
-    public static Logger logger = LogManager.getLogger("AstraeussMercy");
+    public static Logger logger = LogManager.getLogger("AstraeusMercy");
 
     static class PlayerRespawnDeaths{
         long lastDeath = 0;
@@ -89,7 +89,7 @@ public class AstraeusMercy
                         CustomTeleport teleporter = new CustomTeleport(targetWorldServer);
                         FMLCommonHandler.instance().getMinecraftServerInstance().getConfigurationManager().transferPlayerToDimension((EntityPlayerMP) event.entityLiving, config.respawnDimensionId, teleporter);
                         event.entityLiving.setPositionAndUpdate(info.posX, info.posY, info.posZ);
-                        ((EntityPlayerMP) event.entityLiving).addChatMessage(new ChatComponentText("Astraeus spares your live and returns you to a save place"));
+                        ((EntityPlayerMP) event.entityLiving).addChatMessage(new ChatComponentText("Astraeus spares your life and returns you to a safe place"));
                     }
                 }
             }
