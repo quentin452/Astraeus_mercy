@@ -1,0 +1,16 @@
+[
+{
+  "modid": "AstraeusMercy",
+  "name": "Astraeus' Mercy",
+  "description": "A mod that wil save you when dying more then once from a death source",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["bambam01"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
